@@ -1,0 +1,6 @@
+framework module Pods_ButtonTaps {
+  umbrella header "Pods-ButtonTaps-umbrella.h"
+
+  export *
+  module * { export * }
+}

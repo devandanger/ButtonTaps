@@ -1,0 +1,6 @@
+framework module Pods_ButtonTapsUITests {
+  umbrella header "Pods-ButtonTapsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
