@@ -14,6 +14,8 @@
 		209E81A021E603E900716F1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 209E819E21E603E900716F1E /* LaunchScreen.storyboard */; };
 		209E81AB21E603E900716F1E /* ButtonTapsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209E81AA21E603E900716F1E /* ButtonTapsTests.swift */; };
 		209E81B621E603E900716F1E /* ButtonTapsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209E81B521E603E900716F1E /* ButtonTapsUITests.swift */; };
+		20E2D68221E60C0400261C11 /* ReactiveExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E2D68121E60C0400261C11 /* ReactiveExtensions.swift */; };
+		20E2D68421E6176E00261C11 /* ButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E2D68321E6176E00261C11 /* ButtonExtensions.swift */; };
 		3A4D024588BFF9CB804DDE1B /* Pods_ButtonTaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60F626EE143CF7A0235A9D2A /* Pods_ButtonTaps.framework */; };
 		591513D9EB1BBD77633E3BF2 /* Pods_ButtonTapsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E7A3CDC53D7703E8A61F9C1 /* Pods_ButtonTapsUITests.framework */; };
 		62A95E84DC06EB4BDC40B0DB /* Pods_ButtonTapsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD26702F5961C37164BB21D /* Pods_ButtonTapsTests.framework */; };
@@ -51,6 +53,8 @@
 		209E81B121E603E900716F1E /* ButtonTapsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonTapsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		209E81B521E603E900716F1E /* ButtonTapsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTapsUITests.swift; sourceTree = "<group>"; };
 		209E81B721E603E900716F1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20E2D68121E60C0400261C11 /* ReactiveExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveExtensions.swift; sourceTree = "<group>"; };
+		20E2D68321E6176E00261C11 /* ButtonExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExtensions.swift; sourceTree = "<group>"; };
 		231B4807E360FD4A58D076E9 /* Pods-ButtonTaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ButtonTaps.release.xcconfig"; path = "Pods/Target Support Files/Pods-ButtonTaps/Pods-ButtonTaps.release.xcconfig"; sourceTree = "<group>"; };
 		2E7A3CDC53D7703E8A61F9C1 /* Pods_ButtonTapsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ButtonTapsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60F626EE143CF7A0235A9D2A /* Pods_ButtonTaps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ButtonTaps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,6 +118,7 @@
 		209E819421E603E800716F1E /* ButtonTaps */ = {
 			isa = PBXGroup;
 			children = (
+				20E2D68021E60BED00261C11 /* Extensions */,
 				209E819521E603E800716F1E /* AppDelegate.swift */,
 				209E819721E603E800716F1E /* ViewController.swift */,
 				209E819921E603E800716F1E /* Main.storyboard */,
@@ -140,6 +145,15 @@
 				209E81B721E603E900716F1E /* Info.plist */,
 			);
 			path = ButtonTapsUITests;
+			sourceTree = "<group>";
+		};
+		20E2D68021E60BED00261C11 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				20E2D68121E60C0400261C11 /* ReactiveExtensions.swift */,
+				20E2D68321E6176E00261C11 /* ButtonExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		85582B719E35D288CD501236 /* Pods */ = {
@@ -380,6 +394,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				209E819821E603E800716F1E /* ViewController.swift in Sources */,
+				20E2D68421E6176E00261C11 /* ButtonExtensions.swift in Sources */,
+				20E2D68221E60C0400261C11 /* ReactiveExtensions.swift in Sources */,
 				209E819621E603E800716F1E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
